@@ -2,7 +2,9 @@
 
 下载
 
-[https://stable.release.core-os.net/amd64-usr/current/coreos\_production\_vmware\_image.vmdk.bz2](https://stable.release.core-os.net/amd64-usr/current/coreos_production_vmware_image.vmdk.bz2)
+https://stable.release.core-os.net/amd64-usr/current/coreos\_production\_vmware.vmx 打开虚拟机需要
+
+[https://stable.release.core-os.net/amd64-usr/current/coreos\_production\_vmware\_image.vmdk.bz2](https://stable.release.core-os.net/amd64-usr/current/coreos_production_vmware_image.vmdk.bz2) 镜像文件，需要解压缩
 
 注意一定是vmdk格式，用来制作腾讯云镜像。
 

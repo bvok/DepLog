@@ -2,11 +2,17 @@
 
 下载
 
-https://stable.release.core-os.net/amd64-usr/current/coreos\_production\_vmware.vmx 打开虚拟机需要
+[https://stable.release.core-os.net/amd64-usr/current/coreos\_production\_vmware.vmx](https://stable.release.core-os.net/amd64-usr/current/coreos_production_vmware.vmx) 打开虚拟机需要
 
 [https://stable.release.core-os.net/amd64-usr/current/coreos\_production\_vmware\_image.vmdk.bz2](https://stable.release.core-os.net/amd64-usr/current/coreos_production_vmware_image.vmdk.bz2) 镜像文件，需要解压缩
 
 注意一定是vmdk格式，用来制作腾讯云镜像。
+
+通过VM加载系统vmx
+
+VMWare出现文件未能锁定\(Failed to lock the file\)的解决方法
+
+删除虚拟机配置文件和虚拟磁盘文件夹的所有以.lck结尾的文件以及文件夹
 
 修改密码
 

@@ -22,6 +22,8 @@ VMWare出现文件未能锁定\(Failed to lock the file\)的解决方法
 
 2.添加coreos.autologin到如下位置即可
 
+![](/assets/import.png)
+
 3.输入完成后按"F10"重启
 
 4.进入到shell界面后，即可使用passwd core命令修改密码

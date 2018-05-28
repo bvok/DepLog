@@ -6,7 +6,7 @@
 
 下载Virtual Machine Images架构amd64
 
-![](/assets/FreeBSD_vm.png)配置
+# ![](/assets/FreeBSD_vm.png)配置
 
 ### 改密码
 

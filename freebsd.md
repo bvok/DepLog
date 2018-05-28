@@ -4,7 +4,9 @@
 
 [https://download.freebsd.org/ftp/releases/VM-IMAGES/11.1-RELEASE/amd64/Latest/FreeBSD-11.1-RELEASE-amd64.vmdk.xz](https://download.freebsd.org/ftp/releases/VM-IMAGES/11.1-RELEASE/amd64/Latest/FreeBSD-11.1-RELEASE-amd64.vmdk.xz)
 
-## ![](/assets/FreeBSD_vm.png)配置
+下载Virtual Machine Images架构amd64
+
+![](/assets/FreeBSD_vm.png)配置
 
 ### 改密码
 

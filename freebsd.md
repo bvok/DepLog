@@ -42,6 +42,12 @@
 
 adduser
 
+su命令的用户必须属于wheel组\(root的基本属组，组ID为0\),编辑组设置文件/etc/group，将需要超级用户权力的管理成员加入到wheel组中。
+
+vi /etc/group
+
+wheel:\*:0:root,core
+
 准备好你的账号和ssh客户端登录吧
 
 ### 镜像制作

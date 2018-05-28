@@ -1,8 +1,6 @@
 FreeBSD
 
-
-
-https://download.freebsd.org/ftp/releases/VM-IMAGES/11.1-RELEASE/amd64/Latest/FreeBSD-11.1-RELEASE-amd64.vmdk.xz
+[https://download.freebsd.org/ftp/releases/VM-IMAGES/11.1-RELEASE/amd64/Latest/FreeBSD-11.1-RELEASE-amd64.vmdk.xz](https://download.freebsd.org/ftp/releases/VM-IMAGES/11.1-RELEASE/amd64/Latest/FreeBSD-11.1-RELEASE-amd64.vmdk.xz)
 
 ![](/assets/FreeBSD_vm.png)
 
@@ -18,11 +16,13 @@ https://download.freebsd.org/ftp/releases/VM-IMAGES/11.1-RELEASE/amd64/Latest/Fr
 
 编辑/etc/ssh/sshd\_config，将
 
-        \#PermitRootLogin no改为PermitRootLogin yes  //允许root登陆
+```
+    #PermitRootLogin no改为PermitRootLogin yes  //允许root登陆 ，可添加新账户绕开此配置
 
-        \#PasswordAuthentication no改为PasswordAuthentication yes//使用系统PAM认证
+    #PasswordAuthentication no改为PasswordAuthentication yes//使用系统PAM认证
 
-        \#PermitEmptyPasswords no改为PermitEmptyPasswords no//不允许空密码
+    #PermitEmptyPasswords no改为PermitEmptyPasswords no//不允许空密码
+```
 
 保存退出
 

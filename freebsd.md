@@ -1,14 +1,18 @@
-FreeBSD
+# FreeBSD
+
+## 下载
 
 [https://download.freebsd.org/ftp/releases/VM-IMAGES/11.1-RELEASE/amd64/Latest/FreeBSD-11.1-RELEASE-amd64.vmdk.xz](https://download.freebsd.org/ftp/releases/VM-IMAGES/11.1-RELEASE/amd64/Latest/FreeBSD-11.1-RELEASE-amd64.vmdk.xz)
 
-![](/assets/FreeBSD_vm.png)
+## ![](/assets/FreeBSD_vm.png)配置
+
+### 改密码
 
 默认root无密码
 
 修改root 密码 passwd 然后输入2次密码。
 
-开启SSH
+### 开启SSH
 
 编辑/etc/inetd.conf，去掉ssh前的\#
 
@@ -30,7 +34,13 @@ FreeBSD
 
 查看服务是否启动，netstat -an，如果看到22端口有监听
 
-adduser添加新用户
+### 添加新用户
+
+adduser
 
 准备好你的账号和ssh客户端登录吧
+
+### 镜像制作
+
+镜像制作其他类似腾讯云
 

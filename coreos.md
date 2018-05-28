@@ -1,6 +1,6 @@
 # 1.CoreOS
 
-下载
+下载CoreOS镜像
 
 [https://stable.release.core-os.net/amd64-usr/current/coreos\_production\_vmware.vmx](https://stable.release.core-os.net/amd64-usr/current/coreos_production_vmware.vmx) 打开虚拟机需要
 

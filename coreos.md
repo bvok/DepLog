@@ -36,3 +36,9 @@ VMWare出现文件未能锁定\(Failed to lock the file\)的解决方法
 
 ![](/assets/CoreOS_vm_upload.png)
 
+## 导入镜像
+
+使用腾讯云的镜像导入功能导入镜像。
+
+
+

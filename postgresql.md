@@ -1,8 +1,8 @@
 pkg install postgresql10-server-10.3\_1
 
- echo "postgresql\_enable=\"YES\"" &gt;&gt; /etc/rc.conf
+echo "postgresql\_enable=\"YES\"" &gt;&gt; /etc/rc.conf
 
-chown pgsql:pgsql /root/pgsql
+~~chown pgsql:pgsql /root/pgsql~~
 
 /usr/local/etc/rc.d/postgresql initdb
 
